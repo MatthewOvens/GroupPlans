@@ -1,0 +1,18 @@
+# File di ambiente locali; gli esempi devono contenere solo valori fittizi.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# File generati dal sistema operativo.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local dependencies, build output, and verification artifacts.
+node_modules/
+dist/
+.npm-logs/
+.npm-cache/
+.qa/
+*.tsbuildinfo
