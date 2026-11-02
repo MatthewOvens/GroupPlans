@@ -16,3 +16,4 @@ dist/
 .npm-cache/
 .qa/
 *.tsbuildinfo
+Notes.txt
